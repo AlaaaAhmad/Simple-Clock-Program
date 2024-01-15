@@ -15,6 +15,7 @@ def update():
 
 root = Tk()
 root.config(bg="Black")
+root.title("Clock")
 dayLabel = Label(root, bg="Black", fg="White", font=("Georgia", 50))
 timeLabel = Label(root, bg="Black", fg="Red", font=("Georgia", 50))
 dateLabel = Label(root, bg="Black", fg="White", font=("Georgia", 50))
